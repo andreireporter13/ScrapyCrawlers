@@ -1,5 +1,5 @@
 # Scrapy: few example for presentation
-## Scrapers written in Python3 with Scrapy and Playwright
+### Scrapers written in Python3 with Scrapy and Playwright
 
 ![Scrapy](./project_photo/photo_presentation.png)
 
