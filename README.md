@@ -1,34 +1,33 @@
-# Scrapy: few example for presentation
-### Scrapers written in Python3 with Scrapy and Playwright
+# About my experience with Python3: Scrapy, Playwright, Selenium, Requests, BS4, request_html etc.
 
-Big sites are more complex, but is not a problem. If them cannot acces with simple https requests with scrapy,
-we can configure Playwright in project. But exist and also variants: Splash, Selenium etc.
-For more complex and strongs sites we can make a build project with only Selenium, like my below 
-projects:
+Sites that are larger and more complex pose a greater challenge, but this is not an issue. If they cannot be accessed
+using simple HTTPS requests with Scrapy, we can configure Playwright within the project. Additionally, there are alternative
+options such as Splash and Selenium. For more intricate and robust websites, we may choose to build a project exclusively using 
+Selenium, as demonstrated in the project below:
 
 [Selenium app for SEO Analysis](https://github.com/andreireporter13/SEO-1st-page-Google-data-scrape)
-This project have configured web driver with Selenium. I configured here more complex logic: antibot detection
-and proxy.
+This project has been configured with a web driver using Selenium. I have implemented more complex logic 
+here, including anti-bot detection and proxy configuration.
 [Browser Config for Selenium](https://github.com/andreireporter13/SEO-1st-page-Google-data-scrape/blob/SEO-1st-page-Google-data-scrape/browser_settings/browser_settings_file.py)
 
-And video presentation:
+And video presentation with Selenium Headless app:
 
 [![SEO app with Selenium Headless](https://i.ytimg.com/vi/44cThvaa3Jw/hqdefault.jpg)](https://www.youtube.com/watch?v=44cThvaa3Jw&t=687s "SEO APP + Selenium Headless")
 
-The big Scrapy project I made for peviitor.ro.
+The extensive Scrapy project I created for peviitor.ro can be found at:
 [Scrapy full automated project](https://github.com/peviitor-ro/Scrapy_peviitor_jobs)
-In this project I configured Scrapy for crawling, process items and update API data on peviitor.ro. Scrapy is the best options
-when you have a big project for scraping. It is easy to use and if someone else will be work in your project, he will be 
-understand everything. 
+In this project, I configured Scrapy for crawling, processing items, and updating API data on peviitor.ro.
+Scrapy is the best choice for large-scale scraping projects due to its ease of use. Even if someone
+else works on your project, they will easily understand the configuration.
 
 Scrapy project video presentation:
 
 [![Scrapy video presentation](https://i.ytimg.com/vi/i_fkt29UuPs/hqdefault.jpg)](https://www.youtube.com/watch?v=i_fkt29UuPs&t=4s "Scrapy Project")
 
-My another project is for Peviitor.ro: Job Search Engine. 
+My another project is for Peviitor.ro: a Job Search Engine. You can find the custom build for scraping at:
 [Peviitor Project - Custom build for Scraping](https://github.com/peviitor-ro/Scrapers_start_with_digi)
-Here is about my custom solution for scraping and for new joiners. Here is very easy to create on of template for scraping.
-The people who will use this project can easily create new scraper:
+This section provides insights into my custom solution for scraping and is designed for new contributors.
+It's straightforward to create a new template for scraping within this project. Users will find it easy to create new scrapers:
 
 >  You can create new files for scrapers from ->
 >  ... your terminal. For example:
@@ -49,10 +48,12 @@ Custom scraping project video presentation:
 
 [![Custom solution for scraping - video presentation](https://i.ytimg.com/vi/icoCA8it9zw/hqdefault.jpg)](https://www.youtube.com/watch?v=icoCA8it9zw&t=351s "Custom Scraping Project")
 
-In this project I didn't use Selenium, because Github Actions have only 4gb ram for on time virtual machine. Instead I used requests_html, 
-little browse emulator. It is enough for our work. 
-In this project I used Singleton Pattern for more easily work with scrapers. The 5 of my students who use it is very nice, because they make
-only instance and in instance come result, no needed to call another magic method.
+In this project, I opted not to use Selenium due to the limitation of GitHub Actions, which provides only 4GB of RAM for each virtual machine.
+Instead, I employed requests_html, a lightweight browser emulator that proved sufficient for our requirements.
+ 
+I implemented the Singleton Pattern in this project to streamline the workflow for scrapers. The feedback from the 5 students who have used
+it is very positive. They only need to create an instance, and the results are conveniently available within that instance. 
+There is no need to invoke additional magic methods.
 
 #### Little example from Scrapy
 ![Scrapy](./project_photo/photo_presentation.png)
