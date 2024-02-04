@@ -19,7 +19,7 @@ The big Scrapy project I made for peviitor.ro.
 In this project I configured Scrapy for crawling, process items and update API data on peviitor.ro. Scrapy is the best options
 when you have a big project for scraping. It is easy to use and if someone else will be work in your project, he will be 
 understand everything. 
-[![Scrapy video presentation](https://i.ytimg.com/vi/i_fkt29UuPs/hqdefault.jpg)][(https://www.youtube.com/watch?v=i_fkt29UuPs&t=4s "Scrapy Project")]
+[![Scrapy video presentation](https://i.ytimg.com/vi/i_fkt29UuPs/hqdefault.jpg)](https://www.youtube.com/watch?v=i_fkt29UuPs&t=4s "Scrapy Project")
 
 My another project is for Peviitor.ro: Job Search Engine. 
 [Peviitor Project - Custom build for Scraping](https://github.com/peviitor-ro/Scrapers_start_with_digi)
@@ -40,7 +40,7 @@ The people who will use this project can easily create new scraper:
 
 [File for create scraping template](https://github.com/peviitor-ro/Scrapers_start_with_digi/blob/main/new_sites/__create_scraper.py)
 [Folder with __utils files for automate scraping process](https://github.com/peviitor-ro/Scrapers_start_with_digi/tree/main/new_sites/__utils)
-[![Custom solution for scraping - video presentation](https://i.ytimg.com/vi/icoCA8it9zw/hqdefault.jpg)][(https://www.youtube.com/watch?v=icoCA8it9zw&t=351s "Custom Scraping Project")]
+[![Custom solution for scraping - video presentation](https://i.ytimg.com/vi/icoCA8it9zw/hqdefault.jpg)](https://www.youtube.com/watch?v=icoCA8it9zw&t=351s "Custom Scraping Project")
 
 In this project I didn't use Selenium, because Github Actions have only 4gb ram for on time virtual machine. Instead I used requests_html, 
 little browse emulator. It is enough for our work. 
