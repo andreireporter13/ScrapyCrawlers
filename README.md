@@ -35,6 +35,7 @@ It's straightforward to create a new template for scraping within this project. 
 >  Its really useful when you have a lot of scrapers.
 >
 >  You can create your own scraper:
+
 >  ... static
 
 >  ... dynamic_json_get
