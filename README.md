@@ -55,9 +55,9 @@ I implemented the Singleton Pattern in this project to streamline the workflow f
 it is very positive. They only need to create an instance, and the results are conveniently available within that instance. 
 There is no need to invoke additional magic methods.
 
-#### Little example from Scrapy
+### Little example from Scrapy
 
-About Scraping:
+#### Note about Scraping:
 In the web scraping process, the first step involves searching for a REST API or SOAP service on the site.
 If these are not available, the next step is to parse the HTML. In the case of dynamic pages rendered with JavaScript,
 we explore the possibility of finding an XML file associated with the site. However, it's crucial to compare the .xml file
