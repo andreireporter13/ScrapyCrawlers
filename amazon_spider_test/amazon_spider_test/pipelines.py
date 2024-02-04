@@ -27,5 +27,5 @@ class AmazonSpiderTestPipeline:
 
     def close_spider(self, spider):
 
-        print(self.lst, len(self.lst)
+        print(self.lst, len(self.lst))
 

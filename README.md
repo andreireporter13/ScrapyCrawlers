@@ -73,7 +73,7 @@ If none of these methods proves effective, we resort to using Playwright or Sele
 
 ![Scrapy](./project_photo/photo_presentation.png)
 
-#### Pipeplines
+#### Pipelines
 ![Pipelines](./project_photo/pipelines.png)
 
 #### First tests in "scrapy shell"
