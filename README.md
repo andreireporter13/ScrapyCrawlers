@@ -1,9 +1,10 @@
 # Scrapy: few example for presentation
 ### Scrapers written in Python3 with Scrapy and Playwright
 
+#### Little example from Scrapy
 ![Scrapy](./project_photo/photo_presentation.png)
 
-# ---------
+#### Pipeplines
 ![Pipelines](./project_photo/pipelines.png)
 
 I have extensively worked with Scrapy, a Python web scraping framework, to extract and analyze 
