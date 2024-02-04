@@ -36,9 +36,13 @@ It's straightforward to create a new template for scraping within this project. 
 >
 >  You can create your own scraper:
 >  ... static
+
 >  ... dynamic_json_get
+
 >  ... dynamic_json_post
+
 >  ... dynamic_render
+
 >  ... custom
 
 [File for create scraping template](https://github.com/peviitor-ro/Scrapers_start_with_digi/blob/main/new_sites/__create_scraper.py)
@@ -64,7 +68,7 @@ we explore the possibility of finding an XML file associated with the site. Howe
 with the site's category; if they match, we proceed with scraping. Note that the XML file may not be instantly updated with 
 changes in the site's category.
 
-If none of these methods proves effective, we resort to using Playwright or Selenium to interact directly with the web page
+If none of these methods proves effective, we resort to using Playwright or Selenium to interact directly with the web page.
 
 ![Scrapy](./project_photo/photo_presentation.png)
 
