@@ -11,7 +11,7 @@ This project have configured web driver with Selenium. I configured here more co
 and proxy.
 [Browser Config for Selenium](https://github.com/andreireporter13/SEO-1st-page-Google-data-scrape/blob/SEO-1st-page-Google-data-scrape/browser_settings/browser_settings_file.py)
 And video presentation:
-[![SEO app with Selenium Headless](https://www.youtube.com/watch?v=44cThvaa3Jw&t=687s)]
+[![SEO app with Selenium Headless](https://i.ytimg.com/vi/icoCA8it9zw/hqdefault.jpg)](https://i.ytimg.com/vi/44cThvaa3Jw/hqdefault.jpg "SEO APP + Selenium Headless")
 
 The big Scrapy project I made for peviitor.ro.
 [Scrapy full automated project](https://github.com/peviitor-ro/Scrapy_peviitor_jobs)
