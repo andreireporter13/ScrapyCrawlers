@@ -46,10 +46,8 @@ class HmSpiderSpider(scrapy.Spider):
         bm_sz = re.search(r'bm_sz=([^;]+)', str_headers).group(1)
         _abck = re.search(r'_abck=([^;]+)', str_headers).group(1)
         akavpau = re.search(r'akavpau_www2_ro_ro=([^;]+)', str_headers).group(1)
-
-
-        # make headers + urls
         
+        # make headers + headers and request
         offset = 0
         for i in range(0, math.ceil(int(items) / 36)):
             headers_url = make_headers(page=offset, bm_sz=bm_sz, _abck=_abck, akavpau=akavpau)
