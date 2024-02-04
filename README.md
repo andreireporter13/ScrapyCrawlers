@@ -1,4 +1,4 @@
-# About my experience with Python3: Scrapy, Playwright, Selenium, Requests, BS4, request_html etc.
+# About my experience with Python3: Scrapy, Playwright, Selenium, Requests, BS4, requests-html etc.
 
 Sites that are larger and more complex pose a greater challenge, but this is not an issue. If they cannot be accessed
 using simple HTTPS requests with Scrapy, we can configure Playwright within the project. Additionally, there are alternative
@@ -56,6 +56,16 @@ it is very positive. They only need to create an instance, and the results are c
 There is no need to invoke additional magic methods.
 
 #### Little example from Scrapy
+
+About Scraping:
+In the web scraping process, the first step involves searching for a REST API or SOAP service on the site.
+If these are not available, the next step is to parse the HTML. In the case of dynamic pages rendered with JavaScript,
+we explore the possibility of finding an XML file associated with the site. However, it's crucial to compare the .xml file
+with the site's category; if they match, we proceed with scraping. Note that the XML file may not be instantly updated with 
+changes in the site's category.
+
+If none of these methods proves effective, we resort to using Playwright or Selenium to interact directly with the web page
+
 ![Scrapy](./project_photo/photo_presentation.png)
 
 #### Pipeplines
