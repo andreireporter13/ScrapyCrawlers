@@ -11,14 +11,14 @@ This project have configured web driver with Selenium. I configured here more co
 and proxy.
 [Browser Config for Selenium](https://github.com/andreireporter13/SEO-1st-page-Google-data-scrape/blob/SEO-1st-page-Google-data-scrape/browser_settings/browser_settings_file.py)
 And video presentation:
-[SEO app with Selenium Headless](https://www.youtube.com/watch?v=44cThvaa3Jw&t=687s)
+[![SEO app with Selenium Headless](https://www.youtube.com/watch?v=44cThvaa3Jw&t=687s)]
 
 The big Scrapy project I made for peviitor.ro.
 [Scrapy full automated project](https://github.com/peviitor-ro/Scrapy_peviitor_jobs)
 In this project I configured Scrapy for crawling, process items and update API data on peviitor.ro. Scrapy is the best options
 when you have a big project for scraping. It is easy to use and if someone else will be work in your project, he will be 
 understand everything. 
-[Scrapy video presentation](https://www.youtube.com/watch?v=i_fkt29UuPs&t=4s)
+[![Scrapy video presentation](https://www.youtube.com/watch?v=i_fkt29UuPs&t=4s)]
 
 
 My another project is for Peviitor.ro: Job Search Engine. 
@@ -40,7 +40,7 @@ The people who will use this project can easily create new scraper:
 
 [File for create scraping template](https://github.com/peviitor-ro/Scrapers_start_with_digi/blob/main/new_sites/__create_scraper.py)
 [Folder with __utils files for automate scraping process](https://github.com/peviitor-ro/Scrapers_start_with_digi/tree/main/new_sites/__utils)
-[Custom solution for scraping - video presentation](https://www.youtube.com/watch?v=icoCA8it9zw&t=351s)
+[![Custom solution for scraping - video presentation](https://www.youtube.com/watch?v=icoCA8it9zw&t=351s)]
 
 In this project I didn't use Selenium, because Github Actions have only 4gb ram for on time virtual machine. Instead I used requests_html, 
 little browse emulator. It is enough for our work. 
